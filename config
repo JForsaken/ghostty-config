@@ -6,8 +6,9 @@ font-size = 14
 theme = Dracula
 
 # Cursor: blinking bar
-cursor-style = bar
-cursor-style-blink = true
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
 
 # Cursor shader
 custom-shader = ~/.config/ghostty/shaders/cursor_warp.glsl
