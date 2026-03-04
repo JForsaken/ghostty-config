@@ -1,0 +1,48 @@
+# Font
+font-family = ComicShannsMono Nerd Font
+font-size = 14
+
+# Theme
+theme = Dracula
+
+# Cursor: blinking bar
+cursor-style = bar
+cursor-style-blink = true
+
+# Cursor shader
+custom-shader = ~/.config/ghostty/shaders/cursor_warp.glsl
+custom-shader-animation = always
+
+# Padding
+window-padding-x = 12
+window-padding-y = 10
+
+# macOS: frosted glass background
+background-opacity = 0.92
+background-blur-radius = 20
+
+# Scrollback
+scrollback-limit = 10000
+
+# Bell
+bell-features = no-system,no-audio,attention,title,no-border
+
+# Keybindings
+# Split panes
+keybind = super+slash=new_split:right
+keybind = super+minus=new_split:down
+
+# Navigate panes
+keybind = super+h=goto_split:left
+keybind = super+j=goto_split:down
+keybind = super+k=goto_split:up
+keybind = super+l=goto_split:right
+
+# Resize panes
+keybind = super+alt+h=resize_split:left,5
+keybind = super+alt+j=resize_split:down,5
+keybind = super+alt+k=resize_split:up,5
+keybind = super+alt+l=resize_split:right,5
+
+# Close pane
+keybind = super+w=close_surface
