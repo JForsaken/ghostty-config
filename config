@@ -1,17 +1,21 @@
 # Font
 font-family = ComicShannsMono Nerd Font
-font-size = 14
+font-size = 16
 
 # Theme
 theme = Dracula
 
 # Cursor: blinking bar
-cursor-style = block
-cursor-style-blink = false
-shell-integration-features = no-cursor
+# cursor-style = block
+# cursor-style-blink = false
+# shell-integration-features = no-cursor
+# Cursor: blinking bar
+cursor-style = bar
+cursor-style-blink = true
 
 # Cursor shader
 custom-shader = ~/.config/ghostty/shaders/cursor_warp.glsl
+custom-shader = ~/.config/ghostty/shaders/ripple_cursor.glsl
 custom-shader-animation = always
 
 # Padding
