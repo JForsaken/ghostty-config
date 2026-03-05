@@ -36,6 +36,7 @@ bell-features = no-system,no-audio,attention,title,no-border
 # Split panes
 keybind = super+slash=new_split:right
 keybind = super+minus=new_split:down
+keybind = super+shift+minus=decrease_font_size:1
 
 # Navigate panes
 keybind = super+h=goto_split:left
